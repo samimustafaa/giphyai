@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Gif AI Generator</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- boxicons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    
+<body>
+
+    <!-- scroll to top -->
+    <!-- <a href="#home" class="scroll-top">
+        <i class="bx bx-chevrons-up"></i>
+    </a> -->
+
+    <!-- navbar -->
+    <header>
+        <a href="#home" class="logo">
+            <img src="/imgs/cgif.svg" alt="">
+        </a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#home">About</a></li>
+            <li><a href="#home">Contact Us</a></li>
+        </ul>
+    </header>
+    <h1 class="main-text"><span>GIF AI</span> Generator</h1>
+    <p class="desc-text">This AI can Generate gifs by just typing something in the search bar <br> and it will automatically show you the gifs you are looking for.</p>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Write e.g.Hello to Generate GIF">
+        <i class="fas fa-times-circle clear-icon" id="clearIcon" width="40px" height="40px"></i>
+      </div>
+    <div id="gifContainer"></div>
+    
+  
+    <script src="index.js" ></script>
+</body>
+</html>

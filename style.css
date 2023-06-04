@@ -1,0 +1,33 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #12161a;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  input, button {
+    margin: 10px;
+  }
+  
+  #gifContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gif {
+    margin: 10px;
+  }
+
+  
